@@ -1,8 +1,17 @@
 // declare your functions here...
 
 function paragraphSelector() {
-  var paragraphs
-  paragraphs = $('p')
-  return paragraphs
+  paragraphSelector().innerHTML = $('p')
+  return paragraphSelector().innerHTML
 }
 
+function lastImageSelector() {
+  lastImageSelector().innerHTML = $('img:last')
+  return lastImageSelector().innerHTML
+}
+
+function ninjaBabySelector() {
+  
+ninjaBabySelector().innerHTML = $('#baby-ninja')
+return ninjaBabySelector().innerHTML
+}
